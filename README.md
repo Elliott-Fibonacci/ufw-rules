@@ -12,10 +12,10 @@ El objetivo del script es establecer las políticas predeterminadas de UFW en mo
 ## Uso
 
 1. Dar permisos de ejecución: chmod +x ufw-config.sh
-2. Para ejecutar el script se requieren permisos sudo. Ejecutar:
+2. Ejecutar el script:
 
 ```
-sudo bash ufw-config.sh
+./ufw-config.sh
 ```
 
 ## Configuración
@@ -27,7 +27,7 @@ El script aplica la siguiente configuración de UFW:
 - Permite la salida a través de la interfaz eth0
 - Permite los puertos 80, 443 y 22 entrantes desde cualquier IP
 
-Este script está diseñado para configurar de forma básica UFW en sistemas Debian/Ubuntu y puede ser utilizado como punto de partida para implementar el firewall. Favor revisar y probar antes de usarlo en producción.
+Este script está diseñado para configurar de forma básica UFW en sistemas Debian/Ubuntu y puede ser utilizado como punto de partida para implementar el firewall. Favor revisar y probar en un entorno aislado antes de usarlo en producción.
 
 
 # Basic UFW configuration in Bash.
@@ -41,10 +41,10 @@ The goal of the script is to set the default UFW policies to block (deny) mode a
 ## Usage
 
 1. Set permissions to run the script: chmod +x ufw-config.sh
-2. To execute the script you need sudo permissions. Execute:
+2. Run the script:
 
 ```
-sudo bash ufw-config.sh
+./ufw-config.sh
 ```
 
 ## Configuration
