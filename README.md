@@ -1,4 +1,4 @@
-# ufw-rules
+# Ufw rules 
 A script to execute the essential UFW rules.
 
 # Configuración básica de UFW en Bash
