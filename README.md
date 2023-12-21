@@ -11,7 +11,12 @@ El objetivo del script es establecer las políticas predeterminadas de UFW en mo
 
 ## Uso
 
-1. Dar permisos de ejecución: chmod +x ufw-config.sh
+1. Dar permisos de ejecución:
+
+```  
+chmod +x ufw-config.sh
+```
+  
 2. Ejecutar el script:
 
 ```
@@ -40,7 +45,12 @@ The goal of the script is to set the default UFW policies to block (deny) mode a
 
 ## Usage
 
-1. Set permissions to run the script: chmod +x ufw-config.sh
+1. Set permissions to run the script:
+   
+```
+chmod +x ufw-config.sh
+```
+   
 2. Run the script:
 
 ```
