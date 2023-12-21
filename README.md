@@ -1,6 +1,6 @@
 # ufw-rules
 A script to execute the essential UFW rules.
-ES 
+
 # Configuración básica de UFW en Bash
 
 Este script permite aplicar la configuración básica de seguridad del firewall UFW de forma automatizada mediante Bash.
@@ -11,7 +11,8 @@ El objetivo del script es establecer las políticas predeterminadas de UFW en mo
 
 ## Uso
 
-Para ejecutar el script se requieren permisos de root. Correr:
+1. Dar permisos de ejecución: chmod +x ufw-config.sh
+2. Para ejecutar el script se requieren permisos sudo. Ejecutar:
 
 ```
 sudo bash ufw-config.sh
@@ -28,7 +29,7 @@ El script aplica la siguiente configuración de UFW:
 
 Este script está diseñado para configurar de forma básica UFW en sistemas Debian/Ubuntu y puede ser utilizado como punto de partida para implementar el firewall. Favor revisar y probar antes de usarlo en producción.
 
-EN 
+
 # Basic UFW configuration in Bash.
 
 This script allows you to apply basic UFW firewall security configuration in an automated way using Bash.
@@ -39,7 +40,8 @@ The goal of the script is to set the default UFW policies to block (deny) mode a
 
 ## Usage
 
-To run the script root permissions are required. Run:
+1. Set permissions to run the script: chmod +x ufw-config.sh
+2. To execute the script you need sudo permissions. Execute:
 
 ```
 sudo bash ufw-config.sh
