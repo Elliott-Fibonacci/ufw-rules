@@ -1,5 +1,6 @@
 # Ufw rules 
-A script to execute the essential UFW rules.
+(EN) A script to execute the essential UFW rules.
+(ES) Secuencias de comandos para ejecutar las reglas esenciales de UFW.
 
 # Configuración básica de UFW en Bash
 
